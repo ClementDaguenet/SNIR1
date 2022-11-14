@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulaire TD1Ex1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="formExo1.css">
+    </head>
+    <body>
+        <form>
+            <div>
+                <fieldset class="f1">
+                    <legend>Formulaire d'inscription</legend>
+                    <fieldset class="f2">
+                        <legend>Civilités</legend>
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom" required="required" class="input"/><br/>
+                        <label for="prenom">Prenom</label>
+                        <input type="text" name="prenom" id="prenom" required="required" class="input"/><br/>
+                        <label for="ville">Ville</label>
+                        <select name="ville" id="ville" class="input">
+                            <option value="-1">Autre</option>
+                            <option value="1">Le Mans</option>
+                            <option value="2">Angers</option>
+                            <option value="3">Nogent-Le-Retrou</option>
+                        </select><br/>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required="required" class="input"/><br/>
+                        <label for="site">Site</label>
+                        <input type="url" name="site" id="site" required="required" class="input"/><br/>
+                        <div class="input"><input type="radio" name="choix1" id="choix1" value="1"/>Masculin</div><br/>
+                        <div class="input"><input type="radio" name="choix1" id="choix2" value="2"/>Féminin</div>Sexe :<br/>
+                        <div class="input"><input type="radio" name="choix1" id="choix3" value="3"/>Je ne souhaite pas le dire</div><br/>
+                        <label for="photo">Photo</label>
+                        <input type="file" name="photo" id="photo" class="input"/>
+                    </fieldset>
+                    <fieldset class="f3">
+                        <legend>Savoirs</legend>
+                        <label for="se">Système d'exploitation</label>
+                        <select name="se" id="se">
+                            <option value="-1">Selectionnez un SE</option>
+                            <option value="1">MacOS</option>
+                            <option value="2">Windows</option>
+                            <option value="3">Linux</option>
+                        </select>
+                        <label for="ver" class="verlabel">Version</label>
+                        <select name="ver" id="ver">
+                        </select><br/><br/>
+                        Langages de programmation<br/>
+                        <input type="checkbox" name="java" id="java" value=""/>JAVA<br/>
+                        <input type="checkbox" name="c" id="c" value=""/>C<br/>
+                        <input type="checkbox" name="php" id="php" value=""/>PHP<br/>
+                        <input type="checkbox" name="autre" id="autre" value=""/>Autre<br/>
+                    </fieldset>
+                    <fieldset class="f4">
+                        <legend>Paramètres de connexion</legend>
+                        <label for="login">Login</label>
+                        <input type="text" name="login" id="login" required="required" class="input2"/><br/>
+                        <label for="mdp">Mot de passe</label>
+                        <input type="password" name="mdp" id="mdp" required="required" class="input2"/><br/>
+                        <label for="cmdp">Confirmation du mot de passe</label>
+                        <input type="password" name="cmdp" id="cmdp" required="required" class="input2"/><br/>
+                    </fieldset>
+                    <input type="submit" id="sub" value="Inscription"/>
+                    <input type="reset" id="reset" value="Effacer les informations de ce formulaire"/>
+                </fieldset>
+            </div>
+        </form>
+    </body>
+</html>

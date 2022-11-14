@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TD2 Styleur</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/changeStyle.css" rel="stylesheet" type="text/css"/>
+        <script src="js/libs/jquery/jquery.js"></script>
+        <script src="js/changeStyle.js"></script>
+    </head>
+    <body>
+        <div>
+            <form id="customisation">
+                <fieldset id="zoneBordure">
+                    <legend><b>Bordure du cadre</b></legend>
+                    <label for="couleurBordure">Couleur bordure</label>
+                    <input type="color" name="couleurBordure" id="couleurBordure" class="bordure"/><br/><br/>
+                    <label for="largeurBordure">Largeur bordure</label>
+                    <input type="number" min="0" max="20" name="largeurBordure" id="largeurBordure" class="bordure" value="1"/><br/><br/>
+                    <label for="courbeBordure">Courbure bordure</label>
+                    <input type="number" min="0" max="25" name="courbeBordure" id="courbeBordure" class="bordure" value="1"/><br/><br/>
+                    <label for="styleBordure">Style bordure</label>
+                    <select  name="styleBordure" id="styleBordure" class="bordure">
+                        <option value="ridge">Ridge</option>
+                        <option value="solid">Solid</option>
+                        <option value="groove">Groove</option>
+                        <option value="double">Double</option>
+                        <option value="inset">Inset</option>
+                        <option value="dotted">Dotted</option>
+                        <option value="dashed">Dashed</option>
+                        <option value="outset">Outset</option>
+                        <option value="none">None</option>
+                    </select>
+                </fieldset><br/>
+                <fieldset id="zoneOmbre">
+                    <legend><b>Ombre du cadre</b></legend>
+                    <label for="ombreDecalH">Décalage horizontal</label>
+                    <input type="number" min="0" max="50" name="ombreDecalH" id="ombreDecalH" class="ombre"  value="0"/><br/><br/>
+                    <label for="ombreDecalV">Décalage vertical</label>
+                    <input type="number" min="0" max="50" name="ombreDecalV" id="ombreDecalV" class="ombre" value="0"/><br/><br/>
+                    <label for="ombreDistFlou">Distance de flou</label>
+                    <input type="number" min="0" max="50" name="ombreDistFlou" id="ombreDistFlou" class="ombre" value="0"/><br/><br/>
+                    <label for="ombreTaille">Taille de l'ombre</label>
+                    <input type="number" min="0" max="50" name="ombreTaille" id="ombreTaille" class="ombre" value="0"/><br/><br/>
+                    <label for="ombreCouleur">Couleur ombre</label>
+                    <input type="color" name="ombreCouleur" id="ombreCouleur" class="ombre"/>
+                </fieldset><br/>
+                <fieldset id="zoneTexte">
+                    <legend><b>Texte</b></legend>
+                    <label for="taille">Taille</label>
+                    <input type="number" min="0" max="50" name="taille" id="taille" class="texte" value="0"/><br/><br/>
+                    <label for="couleur">Couleur du texte</label>
+                    <input type="color" name="couleur" id="couleur" class="texte"/><br/><br/>
+                    <label for="couleur">Couleur du fond</label>
+                    <input type="color" name="couleurFond" id="couleurFond" class="texte"/><br/><br/>
+                </fieldset><br/>
+                <fieldset id="zoneTest">
+                    <legend>Test</legend>
+                    <input type="text" name="divTest" id="divTest" value=" ">
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

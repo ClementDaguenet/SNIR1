@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Map TD1Ex3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #f1{
+                position: absolute;
+            }
+            #f2{
+                position: absolute;
+                left: 400px;
+            }
+            #f3{
+                position: absolute;
+                left: 800px;
+                top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <img src="imagesPourMap/mapPrincipale.jpg" usemap="#map" alt="mapprincipale"/>
+        </div>
+        <div>
+            <iframe width="300" height="285" name="f1" id="f1">
+            </iframe>
+        </div>
+        <div>
+            <iframe width="500" height="300" name="f2" id="f2">
+            </iframe>
+        </div>
+        <div>
+            <iframe width="350" height="210" name="f3" id="f3">
+            </iframe>
+        </div>
+        <map name="map">
+            <area shape="poly" coords="128,85,225,137,223,233,137,272,51,211,75,103" href="imagesPourMap/mapUniversite.jpg" target="f1" alt=""/>
+            <area shape="rect" coords="381,213,424,262" href="imagesPourMap/mapPlaceRepublique.jpg" target="f2" alt=""/>
+            <area shape="circle" coords="429,353,21" href="imagesPourMap/mapLycee.jpg" target="f3" alt=""/>
+        </map>
+    </body>
+</html>
