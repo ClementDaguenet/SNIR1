@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Visite New-York</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/libs/jquery/jquery.min.js" type="text/javascript"></script>
+        <script src="js/libs/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <link href="js/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="CSS/newyork.css" rel="stylesheet" type="text/css"/>
+    </head> 
+    <body > 
+        <div id="fond"></div>
+        <div class="container-fluid">
+            <!--  Affichage du menu et sous-menu -->
+            <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+                <!-- Brand -->
+                <a class="navbar-brand accueil" href="accueil.html" target="cadreCentral"><img src="images/accueil.png" alt=""/></a>
+                <!-- Links -->
+                <ul class="navbar-nav menu">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            CENTRAL PARK
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="strawberryFields.html" target="cadreCentral">Strawberry Fields</a>
+                            <a class="dropdown-item" href="centralParkLePont.html" target="cadreCentral">Le pont</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="brooklyn.html" target="cadreCentral">BROOKLYN</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            LIBERTY ISLAND
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="statueDeLaLiberte.html" target="cadreCentral">Statue de la liberté</a>
+                            <a class="dropdown-item" href="vueSurManhattan.html" target="cadreCentral">Vue de Manhattan</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://fr.wikipedia.org/wiki/New_York" target="cadreCentral">WIKI</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--  Affichage de la bannière et du titre -->
+            <div class="text-center" id="entete"> <h1>Visite de New York</h1> </div>
+        </div>
+        <div class="container-fluid" >
+
+            <!--  Affichage de l'image drapeau  -->
+            <div class="row pt-4">
+                <div class="col-sm-4"><img src="images/drapeau.jpg" alt="drapeau"  class="mx-auto d-block w-75"/>
+                    <div class="m-4"> New York, officiellement nommée City of New York, connue également sous les noms
+                        et abréviations de New York City ou NYC, possède le surnom de « The Big Apple » (« La grosse pomme »),
+                        est la plus grande ville des États-Unis en nombre d'habitants et l'une des plus importantes du continent
+                        américain et du monde avec 8 622 698 habitants. Elle se situe dans le Nord-Est du pays, sur la côte 
+                        atlantique, à l'extrémité sud-est de l'État de New York. 
+                    </div>
+                </div>
+                <div class="col-sm-8" ><iframe  src="accueil.html" name="cadreCentral"  id="cadreCentral" title="Iframe Example"  style="width:100%; height:100%"></iframe></div>
+            </div>
+
+            <!--  Affichage du texte sur 3 colonnes  -->
+            <div class="row">
+                <div class="col-sm-4">
+                    Elle est aussi la troisième plus grande ville du continent américain
+                    derrière Mexico et São Paulo. La ville et sa région métropolitaine constituent la première
+                    porte d'entrée pour l'immigration légale aux États-Unis. Pas moins de 800 langues sont parlées
+                    à New York, ce qui en fait la ville la plus linguistiquement diversifiée au monde.
+                </div><div class="col-sm-4">
+                    Avec notamment Genève, Bâle et Strasbourg, New York est l'une des rares villes 
+                    au monde à être le siège de plusieurs institutions internationales. New York exerce un impact
+                    significatif sur le commerce mondial, la finance, les médias, l'art, la mode, la recherche,
+                    la technologie, l'éducation, le divertissement et
+                </div><div class="col-sm-4">
+                    le tourisme, regroupant l'ensemble des caractéristiques
+                    d'une ville mondiale. Si elle n'est plus la
+                    capitale fédérale des États-Unis depuis plus de deux siècles (elle occupe cette fonction de 1785 à 17902),
+                    New York alimente pendant quelques décennies une rivalité financière et politique avec Philadelphie.
+                </div>
+            </div>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Strawberry Fields</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/libs/jquery/jquery.min.js" type="text/javascript"></script>
+        <script src="js/libs/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <link href="js/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="CSS/newyork.css" rel="stylesheet" type="text/css"/> 
+    </head>
+    <body style="background-color: #146cba">
+        <div class="container-fluid blanc">
+            <div>
+                <div class="text-center"><h1> Mémorial Strawberry Fields</h1></div>                     
+                Le mémorial Strawberry Fields est un monument situé dans Central Park à New York,
+                dédié à la mémoire de l'auteur-compositeur-interprète John Lennon et dont le nom reprend
+                une des chansons, Strawberry Fields Forever. L'entrée du mémorial se situe sur l'avenue de
+                Central Park West à la hauteur de la 72e rue, juste en face du Dakota Building, où Lennon
+                résidait et devant lequel il fut assassiné. Au centre de la mosaïque figure Imagine, le titre
+                de sa plus fameuse chanson.
+            </div>
+            <div id="demo" class="carousel slide" data-ride="carousel" >
+                <!-- Indicateurs -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" id="imageFrame">
+                        <img src="images/strawberryFieldsImag1.jpg" alt="Image1 Strawberry" class="img-fluid d-block w-100 mx-auto">
+                        <div class="carousel-caption">
+                            <h3> Monument situé dans Central Park </h3>
+                            <p> Le nom reprend une des chansons des Beatles, Strawberry Fields Forever </p>
+                        </div>   
+                    </div>
+                    <div class="carousel-item"  id="imageFrame">
+                        <img src="images/strawberryFieldsImag2.jpg" alt="Image2 Strawberry" class="img-fluid d-block w-100 mx-auto">
+                        <div class="carousel-caption">
+                            <h3>Mémorial à la mémoire de John Lennon</h3>
+                            <p>Auteur-compositeur-interprète</p>
+                        </div>   
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

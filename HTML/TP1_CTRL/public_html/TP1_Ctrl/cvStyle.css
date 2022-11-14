@@ -1,0 +1,62 @@
+/* 
+    Created on : 22 sept. 2021, 09:07:48
+    Author     : cdaguenet
+*/
+.blocs{
+    position: fixed;
+    border: 1px solid blue;
+    width: 98%;
+}
+
+.bloc1{
+    width: 98%;
+    padding-left: 30%;
+}
+
+.bloc2{
+    height: 50%;
+    width: 49%;
+}
+
+.bloc3{
+    height: 50%;
+    width: 48%;
+    left: 51%
+}
+
+.cadreCivil{
+    background-color: wheat;
+}
+
+.titre{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+.info{
+    font-weight: bold;    
+}
+
+.detail{
+    font-style: italic;
+}
+
+.comp{
+    font-weight: bold;
+}
+
+.det{
+    font-weight: normal;
+}
+
+.ccna{
+    text-align: center;
+}
+
+.image{
+    position: absolute;
+    width: 80px;
+    left: 68%;
+    /*left: 850px;*/
+}
