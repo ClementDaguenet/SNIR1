@@ -1,0 +1,30 @@
+Lot n°1 : Autocommutateur
+I) Mise en place des communications
+a) Routage des comunications
+b) Poste opérateur
+c) Terminaux téléphoniques
+
+II) Mise en place des fonctionnalités
+a) Fonctionnalités téléphoniques de base
+b) Fonctionnalités
+c) Vis-à-vis des appelants externes
+d) Vis-à-vis des utilisateurs internes
+e) Fonctionnalités offertes aux utilisateurs
+f) Gestion en cours de communication
+g) Diffusion de messages vocaux
+h) Messagerie vocale intégrée
+i) Musique d'attente
+
+Lot n°2 : Coeur de réseau
+a) Objet
+b) Prestations attendues
+c) Fonctionnalités attendues
+
+Lot n°3 : Accès Internet / Interconnexion des sites
+a) Objet
+b) Descriptif technique et fonctionnel
+
+Fin des travaux
+a) Tests finaux
+b) Restitution
+c) Présentation dossier de recettes
