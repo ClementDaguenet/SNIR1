@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 sept. 2021, 13:13:18
+    Author     : cdaguenet
+*/
+.titre{
+    margin: auto ;
+    width: 40% ;
+    text-align: center ; 
+    border: ridge ;
+    color: blue ;
+    border-color: orangered ;
+    background-color: orange ;
+}
+
+.cadre1{
+    width: 20% ;
+    border: groove ;
+    text-align: center ;
+    color: violet ;
+    border-color: blue ;
+}
+
+.cadre2{
+    position: relative ;
+    left: 5% ;
+    background-color: #fefad2 ;
+}
+
+.texte1{
+    font-family: "Courier New" ;
+    position: relative ;
+    left: 5% ;
+}
+
+.texte2{
+    font-family: "Times New Roman" ;
+    position: relative ;
+    left: 10% ;
+}
