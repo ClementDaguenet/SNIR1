@@ -1,0 +1,30 @@
+/* 
+    Created on : 21 sept. 2021, 13:23:25
+    Author     : cdaguenet
+*/
+
+.ecran{
+    
+}
+
+.clic{
+    text-align: center;
+    vertical-align: 50%;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border: 3px dashed black;
+}
+
+.clic:active{
+    font-style: italic;
+    color: white;
+    animation: bouge 5s linear;
+    position: absolute;
+}
+
+@keyframes bouge{
+    0% {background-color:red;left:0px; top:0px}
+    20% {background-color:brown; color:white; left:20%; top:20%}
+    45% {background-color:brown; color:white; left:45%; top:45%}
+}

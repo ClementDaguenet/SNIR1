@@ -1,0 +1,117 @@
+/* 
+    Created on : 15 sept. 2021, 09:36:58
+    Author     : cdaguenet
+*/
+
+/*cadreCivilite*/
+
+.cadreCivilite{
+    text-align: center;
+    width: 100%;
+}
+
+.titreRubrique{
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: large;
+    border: 3px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    display: block;
+}
+
+.nomPrenom{
+    font-weight: bold;
+    font-size: large;
+}
+
+.photo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 7%;
+}
+
+.adresse{
+    font-style: italic;
+}
+
+.ageTel{
+    
+}
+
+.courriel{
+    color: blueviolet;
+}
+
+.typeStage{
+    font-weight: bold;
+}
+
+/*cadreFormation*/
+
+.cadreFormation{
+    width: 100%;
+    font-size: small;
+    padding-top: 10px;
+}
+
+.diplome{
+    font-weight: bold;    
+}
+
+.detailDiplome{
+    font-style: italic;    
+}
+
+/*cadreExperience*/
+
+.cadreExperience{
+    width: 100%;
+    font-size: small;
+    padding-top: 10px;
+}
+
+.anneeExperience{
+    font-weight: bold;   
+}
+
+.posteExperience{
+    
+}
+
+.entrepriseExperience{
+    font-weight: bold;   
+    font-style: italic; 
+}
+
+.periodeExperience{
+    font-style: italic; 
+}
+
+.descriptionExperience{
+    display: list-item;
+    margin-left: 25px;
+}
+
+/*cadreCompetences*/
+
+.cadreCompetences{
+    width: 100%;
+    font-size: small;
+    padding-top: 10px;
+}
+
+.competence{
+    font-weight: bold;
+    display: list-item;
+    margin-left: 25px;    
+}
+
+.detailCompetence{ 
+    font-weight: normal;
+    font-style: italic; 
+}

@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 sept. 2021, 11:31:05
+    Author     : cdaguenet
+*/
+.boites{
+    text-align: center;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;    
+}
+
+.boite1{
+    background-color: green;
+}
+.boite2{
+    background-color: lime;
+}
+.boite3{
+    background-color: violet;
+}
+
+@media screen and (min-width: 300px){
+    .boite1{
+        position: absolute;
+        top: 10px;
+        left: 10px;        
+    }
+    
+    .boite2{
+        position: absolute;
+        top: 170px;
+        left: 10px;
+    }
+    
+    .boite3{
+        position: absolute;
+        top: 330px;
+        left: 10px;
+    }    
+}
+
+@media screen and (min-width: 600px){
+    .boite1{
+        position: absolute;
+        top: 10px;
+        left: 10px;        
+    }
+    
+    .boite2{
+        position: absolute;
+        top: 10px;
+        left: 170px;        
+    }
+    
+    .boite3{
+        position: absolute;
+        top: 170px;
+        left: 10px;        
+    }    
+}
+
+@media screen and (min-width: 900px){
+    .boite1{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .boite2{
+        position: absolute;
+        top: 10px;
+        left: 170px;        
+    }
+    
+    .boite3{
+        position: absolute;
+        top: 10px;
+        left: 330px;        
+    }
+}

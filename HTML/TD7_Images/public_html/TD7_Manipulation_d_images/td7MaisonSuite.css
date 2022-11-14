@@ -1,0 +1,11 @@
+/* 
+    Created on : 28 sept. 2021, 13:56:51
+    Author     : cdaguenet
+*/
+#idCadreCentral{
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    width: 40%;
+    height: 300px;
+}

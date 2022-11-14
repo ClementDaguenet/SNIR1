@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 sept. 2021, 15:52:38
+    Author     : cdaguenet
+*/
+
+
+/* situation 1 */
+@media screen and (max-width:950px)
+{
+   
+
+}
+/* situation 2 */
+@media screen and (max-width:690px)
+{
+   
+
+}
+/* situation 3 */
+@media screen and (min-width:950px)
+{
+    
+
+}
+
+
+/*
+https://cssgradient.io/
+*/

@@ -1,0 +1,68 @@
+/* 
+    Created on : 21 sept. 2021, 13:23:25
+    Author     : cdaguenet
+*/
+body{
+    
+}
+.ecran{
+    
+}
+
+.kart1{
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border: 10px dashed black;
+    background-color: red;
+    color: green;
+}
+
+.kart1:active{
+    font-style: italic;
+    animation: moteur1 7s linear;
+    position: absolute;
+}
+
+.kart2{
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border: 10px dashed black;
+    background-color: green;
+    color: red;
+}
+
+.kart2:active{
+    font-style: italic;
+    animation: moteur2 7s linear;
+    position: absolute;
+}
+
+@keyframes moteur1{
+    0% {background-color:red; color:red; border: 10px dashed black; left:0px;/*  top:0px*/}
+    12% {background-color:black; color:orange; border: 10px dashed red; left:12%;/*  top:12%*/}
+    24% {background-color:red; color:yellow; border: 10px dashed black; left:24%;/*  top:24%*/}
+    36% {background-color:black; color:lime; border: 10px dashed red; left:36%;/*  top:36%*/}
+    48% {background-color:red; color:lightblue; border: 10px dashed black; left:48%; /*top:48%*/}
+    60% {background-color:black; color:blue; border: 10px dashed red; left:60%;/*  top:60%*/}
+    72% {background-color:red; color:violet; border: 10px dashed black; left:72%;/*  top:72%*/}
+    84% {background-color:black; color:red; border: 10px dashed red; left:84%;/*  top:84%*/}
+    96% {background-color:red; color:orange; border: 10px dashed black; left:96%;/*  top:96%*/}
+    100% {background-color:black; color:yellow; border: 10px dashed red; left:100%;/*  top:100%*/}
+}
+
+@keyframes moteur2{
+    0% {background-color:green; color:red; border: 10px dashed black; left:0px;/*  top:0px*/}
+    12% {background-color:black; color:orange; border: 10px dashed green; left:12%;/*  top:12%*/}
+    24% {background-color:green; color:yellow; border: 10px dashed black; left:24%;/*  top:24%*/}
+    36% {background-color:black; color:lime; border: 10px dashed green; left:36%;/*  top:36%*/}
+    48% {background-color:green; color:lightblue; border: 10px dashed black; left:48%; /*top:48%*/}
+    60% {background-color:black; color:blue; border: 10px dashed green; left:60%;/*  top:60%*/}
+    72% {background-color:green; color:violet; border: 10px dashed black; left:72%;/*  top:72%*/}
+    84% {background-color:black; color:red; border: 10px dashed green; left:84%;/*  top:84%*/}
+    96% {background-color:green; color:orange; border: 10px dashed black; left:96%;/*  top:96%*/}
+    100% {background-color:black; color:yellow; border: 10px dashed green; left:100%;/*  top:100%*/}
+}

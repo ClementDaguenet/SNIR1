@@ -1,0 +1,25 @@
+/* 
+    Created on : 28 sept. 2021, 14:21:56
+    Author     : cdaguenet
+*/
+#idCadreNYC{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 40%;
+    height: 40%;
+    border: 5px dotted lightblue;
+    background-color: gray;
+}
+
+.titre{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    background-color: wheat;
+}
+
+.plan{
+    width: 500px;
+    height: 500px;
+}
