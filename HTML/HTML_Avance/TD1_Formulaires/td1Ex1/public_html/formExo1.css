@@ -1,0 +1,63 @@
+html{
+    line-height: 1.6em;
+}
+.f1{
+    background-color: lightgray;
+    border : 1px solid black;
+    margin: 2em 0;
+    padding: 1em;
+    width: 1000px;
+    height: 575px;
+}
+.f2{
+    background-color: #fec9a8;
+    border : 1px solid black;
+    margin: 2em 0;
+    padding: 1em;
+    position: absolute;
+    width: 495px;
+    height: 280px;
+    
+}
+.f3{
+    background-color: #97fd74;
+    border : 1px solid black;
+    margin: 2em 0;
+    padding: 1em;
+    position: absolute;
+    width: 425px;
+    height: 280px;
+    left: 560px;
+}
+.f4{
+    background-color: #fdef74;
+    border : 1px solid black;
+    margin: 2em 0;
+    padding: 1em;
+    position: absolute;
+    width: 960px;
+    top: 385px;
+    height: 125px;
+}
+.input{
+    position: inherit;
+    left: 150px;
+}
+.input2{
+    position: inherit;
+    left: 300px;
+}
+.verlabel{
+    position: inherit;
+    top: -5px;
+    right: 55px;
+}
+#sub{
+    position: absolute;
+    top: 590px;
+}
+#reset{
+    position: absolute;
+    top: 590px;
+    left: 110px;
+}

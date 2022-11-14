@@ -1,0 +1,68 @@
+#contour{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 220px;
+    height: 270px;
+    background-color: lightgrey;
+    border: 2px ridge black;
+    border-radius: 4px;
+}
+#ecran{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 130px;
+    height: 25px;
+    background-color: lightyellow;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+}
+.lig0{
+    position: absolute;    
+    top: 10px;
+}
+.lig1{
+    position: absolute;    
+    top: 60px;
+}
+.lig2{
+    position: absolute;    
+    top: 110px;
+}
+.lig3{
+    position: absolute;    
+    top: 160px; 
+}
+.lig4{
+    position: absolute;    
+    top: 210px; 
+}
+.col1{
+    position: absolute;    
+    left: 10px;
+}
+.col2{
+    position: absolute;    
+    left: 60px;
+}
+.col3{
+    position: absolute;    
+    left: 110px;
+}
+.col4{
+    position: absolute;    
+    left: 160px;
+}
+.touche {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px ridge black;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
