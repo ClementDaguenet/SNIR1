@@ -1,0 +1,163 @@
+/* 
+    Created on : 22 sept. 2021, 10:18:38
+    Author     : cdaguenet
+*/
+
+.modules:hover{
+    border: 3px ridge red;
+    background-image: url("images/fond.jpg");
+    background-position-y: 20px;
+}
+
+.titreModule{
+    margin-left: 30%;
+    width: 40%;
+    background-color: white;
+    text-align: center;
+    border: 2px ridge blue;
+    border-radius: 50%;
+}
+
+.module1{
+    position: absolute;
+    width: 32%;
+    left: 0%;
+    top: 0%;
+    height: 25%;
+    background-image: url("images/cisco.jpg");
+    background-position-x: -100px;
+    border: 3px double blue;
+    padding: 2px;
+    font-family: lucida;
+}
+
+.module2{
+    position: absolute;
+    width: 32%;
+    left: 33%;
+    top: 0%;
+    height: 25%;
+    background-image: url("images/cisco.jpg");
+    background-position-x: -100px;
+    border: 3px double blue;
+    padding: 2px;
+    font-family: lucida;
+}
+
+.module3{
+    position: absolute;
+    width: 32%;
+    left: 66%;
+    top: 0%;
+    height: 25%;
+    background-image: url("images/cisco.jpg");
+    background-position-x: -100px;
+    border: 3px double blue;
+    padding: 2px;
+    font-family: lucida;
+}
+
+.module4{
+    position: absolute;
+    width: 32%;
+    left: 0%;
+    top: 27%;
+    height: 25%;
+    background-image: url("images/cisco.jpg");
+    background-position-x: -100px;
+    border: 3px double blue;
+    padding: 2px;
+    font-family: lucida;
+}
+
+.module5{
+    position: absolute;
+    width: 32%;
+    left: 33%;
+    top: 27%;
+    height: 25%;
+    background-image: url("images/cisco.jpg");
+    background-position-x: -100px;
+    border: 3px double blue;
+    padding: 2px;
+    font-family: lucida;
+}
+
+.module6{
+    position: absolute;
+    width: 32%;
+    left: 66%;
+    top: 27%;
+    height: 25%;
+    background-image: url("images/cisco.jpg");
+    background-position-x: -100px;
+    border: 3px double blue;
+    padding: 2px;
+    font-family: lucida;
+}
+
+.module7{
+    position: absolute;
+    width: 32%;
+    left: 0%;
+    top: 54%;
+    height: 25%;
+    background-image: url("images/cisco.jpg");
+    background-position-x: -100px;
+    border: 3px double blue;
+    padding: 2px;
+    font-family: lucida;
+}
+
+.module8{
+    position: absolute;
+    width: 32%;
+    left: 33%;
+    top: 54%;
+    height: 25%;
+    background-image: url("images/cisco.jpg");
+    background-position-x: -100px;
+    border: 3px double blue;
+    padding: 2px;
+    font-family: lucida;
+}
+
+.module9{
+    position: absolute;
+    width: 32%;
+    left: 66%;
+    top: 54%;
+    height: 25%;
+    background-image: url("images/cisco.jpg");
+    background-position-x: -100px;
+    border: 3px double blue;
+    padding: 2px;
+    font-family: lucida;
+}
+
+.module10{
+    position: absolute;
+    width: 32%;
+    left: 17%;
+    top: 81%;
+    height: 25%;
+    background-color: yellow;
+    background-image: url("images/cisco.jpg");
+    background-position-x: -100px;
+    border: 3px double blue;
+    padding: 2px;
+    font-family: lucida;
+}
+
+.module11{
+    position: absolute;
+    width: 32%;
+    left: 50%;
+    top: 81%;
+    height: 25%;
+    background-image: url("images/cisco.jpg");
+    background-position-x: -100px;
+    border: 3px double blue;
+    padding: 2px;
+    font-family: lucida;
+}
