@@ -16,13 +16,13 @@
 
 |Chapter|Name        |What's into ?       |
 |-------|------------|--------------------|
-|1|[TD1](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD1)|WIP|
-|2|[TD2](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD2)|WIP|
-|3|[TD3](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD3)|WIP|
-|4|[TD4](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD4)|WIP|
+|1|[TD1](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD1)|Prise en main|
+|2|[TD2](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD2)|Entrées sorties|
+|3|[TD3](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD3)|Schéma conditionnel|
+|4|[TD4](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD4)|Itération|
 |5|[TD5](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD5)|Tableaux|
 |6|[TD6](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD6)|Chaînes|
-|7|[TD7](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD7)|Distibuteur de boissons WIP|
+|7|[TD7](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD7)|Distibuteur de boissons|
 |8|[TD8](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD8)|WIP|
 |9|[TD9](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD9)|GPIO|
 |10|[TD10](https://github.com/ClementDaguenet/SNIR1/tree/main/C/TD10)|Fichiers|
