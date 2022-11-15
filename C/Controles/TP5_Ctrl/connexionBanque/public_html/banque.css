@@ -1,0 +1,71 @@
+#connexion
+{
+    text-align: center;
+}
+#zoneBordure
+{
+    width: 400px;
+    height: 620px;
+    background-color: blue;
+}
+#zoneConnexion
+{
+    width: 325px;
+    height: 520px;
+    background-color: white;
+    position: relative;
+    margin-left: 5%;
+}
+#titre
+{
+    font-weight: bold;
+    color: white;
+}
+.bouton
+{
+    width: 100px;
+    height: 40px;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+}
+.bouton:hover
+{
+    border-color: orange;
+}
+.touche
+{
+    width: 55px;
+    height: 55px;
+    margin: 11px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+.touche:hover
+{
+    border-color: orange;
+}
+#identifiant
+{
+    font-style: italic
+}
+#identifiant:hover
+{
+    border-color: orange;
+}
+#motDePasse
+{
+    font-style: italic
+}
+#motDePasse:hover
+{
+    border-color: orange;
+}
+#vocal
+{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: gray;
+    color:white;
+}

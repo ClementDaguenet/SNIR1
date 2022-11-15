@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Connexion Banque</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="banque.css" rel="stylesheet" type="text/css"/>
+        <script src="js/libs/jquery/jquery.min.js"></script>
+        <script src="js/banque.js"></script>
+    </head>
+    <body>
+        <form id="connexion">
+            <fieldset id="zoneBordure">
+                <h3 id="titre">Connexion à mes comptes</h3>
+                <fieldset id="zoneConnexion">
+                    <label for="identifiant">Identifiant :</label><br/>
+                    <input type="text" name="identifiant" id="identifiant" placeholder="Saisissez votre identifiant"/><br/>
+                    <input type="checkbox" name="memoire" id="memoire">Mémorisez mon identifiant<br/><br/>
+                    <label for="motDePasse">Mot de passe :</label><br/>
+                    <input type="text" name="motDePasse" id="motDePasse" placeholder="Composez votre mot de passe"/><br/><br/>
+                    <input type="button" name="vocal" id="vocal" value="Activer la vocalisation"/>
+                    <div id="clavier"></div>
+                    <input type="submit" name="bouton" class="bouton" id="valider" value="VALIDER"/>
+                    <input type="reset" name="bouton" class="bouton" id="effacer" value="EFFACER"/>
+                </fieldset>
+            </fieldset>
+        </form>
+    </body>
+</html>
